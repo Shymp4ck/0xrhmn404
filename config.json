@@ -1,15 +1,15 @@
 {
   "proofsEnabled": false,
   "deploy": {
-    "optimism": "XCounterUC",
-    "base": "XCounterUC"
+    "optimism": "XCounter",
+    "base": "XCounter"
   },
-  "isUniversal": true,
+  "isUniversal": false,
   "createChannel": {
     "srcChain": "optimism",
     "srcAddr": "0x1234567890AbCdEf1234567890aBcDeF12345678",
     "dstChain": "base",
-    "dstAddr": "0x1234567890AbCdEf1234567890aBcDeF12345678",
+    "dstAddr": "0x515822a2a27Dc9A9b58f11258B4b5A192A710d44",
     "version": "1.0",
     "ordering": 0,
     "fees": false
@@ -21,7 +21,7 @@
       "timeout": 36000
     },
     "base": {
-      "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
+      "portAddr": "0x515822a2a27Dc9A9b58f11258B4b5A192A710d44",
       "channelId": "channel-n",
       "timeout": 36000
     }
