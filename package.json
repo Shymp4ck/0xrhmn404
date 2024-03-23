@@ -1,5 +1,5 @@
 {
-  "name": "ibc-app-solidity-template",
+  "name": "@0xrhmn/0xrhmn",
   "version": "1.0.0",
   "description": "Template project to start building IBC enabled Solidity contracts, with Hardhat and Foundry support",
   "main": "index.js",
@@ -26,10 +26,14 @@
     "hardhat": "^2.19.5"
   },
   "dependencies": {
+    "@0xrhmn/0xrhmn": "^1.0.0",
     "@openzeppelin/contracts": "^4.7.6",
     "alchemy-sdk": "^3.2.0",
     "axios": "^1.6.7",
     "dotenv": "^16.4.1",
     "hardhat-verify": "^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
